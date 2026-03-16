@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Melanie Nicole Trachsler | Portfolio</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+        rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&amp;display=swap"
+        rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+        rel="stylesheet" />
+    <script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#0e4cc8",
+                        "background-light": "#f6f6f8",
+                        "background-dark": "#101622",
+                    },
+                    fontFamily: {
+                        "display": ["Inter"]
+                    },
+                    borderRadius: { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" },
+                },
+            },
+        }
+    </script>
+</head>
+
+<body class="bg-background-light dark:bg-background-dark font-display text-slate-900 dark:text-slate-100 antialiased">
+    <div class="relative flex h-auto min-h-screen w-full flex-col group/design-root overflow-x-hidden">
+        <div class="layout-container flex h-full grow flex-col">
+            <!-- Header / Navigation -->
+            <header
+                class="flex items-center justify-between whitespace-nowrap border-b border-solid border-slate-200 dark:border-slate-800 px-10 py-4 bg-white/80 dark:bg-background-dark/80 backdrop-blur-md sticky top-0 z-50">
+                <div class="flex items-center gap-3">
+                    <div class="size-8 bg-primary rounded-lg flex items-center justify-center text-white">
+                        <span class="material-symbols-outlined">design_services</span>
+                    </div>
+                    <h2 class="text-slate-900 dark:text-white text-lg font-bold leading-tight tracking-tight">Melanie
+                        Nicole Trachsler</h2>
+                </div>
+                <div class="flex flex-1 justify-end gap-8">
+                    <div class="hidden md:flex items-center gap-8">
+                        <a class="text-slate-600 dark:text-slate-300 text-sm font-medium hover:text-primary transition-colors"
+                            href="#work">Trabajo</a>
+                        <a class="text-slate-600 dark:text-slate-300 text-sm font-medium hover:text-primary transition-colors"
+                            href="#about">Sobre mí</a>
+                        <a class="text-slate-600 dark:text-slate-300 text-sm font-medium hover:text-primary transition-colors"
+                            href="#experience">Experiencia</a>
+                        <a class="text-slate-600 dark:text-slate-300 text-sm font-medium hover:text-primary transition-colors"
+                            href="#skills">Habilidades</a>
+                        <a class="text-slate-600 dark:text-slate-300 text-sm font-medium hover:text-primary transition-colors"
+                            href="#contact">Contacto</a>
+                    </div>
+                    <button
+                        class="flex min-w-[84px] cursor-pointer items-center justify-center rounded-lg h-10 px-4 bg-primary text-white text-sm font-bold transition-transform hover:scale-105 active:scale-95">
+                        <span>Descargar CV</span>
+                    </button>
+                </div>
+            </header>
+            <main class="flex-1">
+                <!-- Hero Section -->
+                <section class="px-6 md:px-20 lg:px-40 py-16 md:py-24">
+                    <div class="max-w-[1200px] mx-auto">
+                        <div class="flex flex-col lg:flex-row items-center gap-12 lg:gap-20">
+                            <div class="w-full lg:w-1/2 space-y-8">
+                                <div class="space-y-4">
+                                    <span class="text-primary font-bold tracking-widest uppercase text-xs">Diseñadora
+                                        UX/UI Junior</span>
+                                    <h1
+                                        class="text-slate-900 dark:text-white text-5xl md:text-6xl font-black leading-tight tracking-tight">
+                                        Melanie Nicole Trachsler
+                                    </h1>
+                                    <p class="text-slate-500 dark:text-slate-400 text-lg md:text-xl font-medium">
+                                        Diseñadora UX/UI Junior | Investigación y Descubrimiento</p>
+                                    <p
+                                        class="text-slate-600 dark:text-slate-300 text-base md:text-lg leading-relaxed max-w-xl">
+                                        Me estoy volcando al diseño UX/UI, combinando mi formación en arquitectura,
+                                        gestión y marketing digital para crear experiencias digitales claras,
+                                        funcionales y centradas en el usuario.</p>
+                                </div>
+                                <div class="flex flex-wrap gap-4">
+                                    <a class="flex min-w-[140px] items-center justify-center rounded-xl h-14 px-8 bg-primary text-white text-base font-bold shadow-lg shadow-primary/20 hover:bg-primary/90 transition-all"
+                                        href="#work">Ver Mi Trabajo</a>
+                                    <a class="flex min-w-[140px] items-center justify-center rounded-xl h-14 px-8 bg-slate-100 dark:bg-slate-800 text-slate-900 dark:text-white text-base font-bold hover:bg-slate-200 dark:hover:bg-slate-700 transition-all"
+                                        href="#contact">Contactame</a>
+                                </div>
+                            </div>
+                            <div class="w-full lg:w-1/2">
+                                <div class="relative group">
+                                    <div
+                                        class="absolute -inset-1 bg-gradient-to-r from-primary to-blue-400 rounded-2xl blur opacity-25 group-hover:opacity-40 transition duration-1000">
+                                    </div>
+                                    <div
+                                        class="relative aspect-square overflow-hidden rounded-2xl bg-slate-200 dark:bg-slate-800">
+                                        <img alt="Melanie Nicole Trachsler Workspace" class="w-full h-full object-cover"
+                                            data-alt="Modern minimalist home office workspace setup"
+                                            src="https://lh3.googleusercontent.com/aida-public/AB6AXuC_mil1S_1jP07RmihbzRfv5ojTDKL07HwDnq8QJ8VwaHfzojMn8r9nR0SXDUhPgnPqxshVLlgJs5tjBhTQntecgK_JaFKiYL4ubi3jQQl26OL9msy9eX3DucY87Qr9RHNth_TxQ0LYag7No2PP0sK6tAXmCO99Q3Zv1uTTEFbCnYhlTcu8ZaZ5todctpiSIrMKsNlvZKMgHnZe-ZXjQ3tvpGgJXSsK9cF2xSmTnXNg5rf6ejFINYx89YgglVvBvcv3_mtzDeyDl5M" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- About Section -->
+                <section class="px-6 md:px-20 lg:px-40 py-20 bg-white dark:bg-slate-900" id="about">
+                    <div class="max-w-[1200px] mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+                        <div class="lg:col-span-5">
+                            <h2 class="text-3xl font-bold mb-6 text-slate-900 dark:text-white">Sobre Mí</h2>
+                            <div class="w-20 h-1 bg-primary mb-8 rounded-full"></div>
+                            <p class="text-slate-600 dark:text-slate-300 text-lg leading-relaxed mb-6">Con una base
+                                sólida en arquitectura y real estate, aporto una perspectiva única al diseño digital. Mi
+                                enfoque está estructurado pero es creativo, arraigado en los principios de alinear las
+                                necesidades del usuario con los objetivos de negocio.</p>
+                            <p class="text-slate-600 dark:text-slate-300 text-lg leading-relaxed">Mi transición a UX/UI
+                                está impulsada por la pasión por la investigación de usuarios, la arquitectura de la
+                                información y el wireframing, alineando siempre las necesidades de los usuarios con los
+                                objetivos comerciales. Creo que el gran diseño no es solo cómo se ve, sino con qué
+                                eficacia resuelve los problemas.</p>
+                        </div>
+                        <div class="lg:col-span-7 grid grid-cols-2 gap-4">
+                            <div
+                                class="p-6 rounded-2xl bg-background-light dark:bg-slate-800 border border-slate-100 dark:border-slate-700 space-y-3">
+                                <span class="material-symbols-outlined text-primary text-3xl">search</span>
+                                <h3 class="font-bold text-slate-900 dark:text-white">Investigación de Usuarios</h3>
+                                <p class="text-sm text-slate-500 dark:text-slate-400">Discovering deep insights through
+                                    behavioral analysis.</p>
+                            </div>
+                            <div
+                                class="p-6 rounded-2xl bg-background-light dark:bg-slate-800 border border-slate-100 dark:border-slate-700 space-y-3">
+                                <span class="material-symbols-outlined text-primary text-3xl">account_tree</span>
+                                <h3 class="font-bold text-slate-900 dark:text-white">Arquitectura de la Información</h3>
+                                <p class="text-sm text-slate-500 dark:text-slate-400">Structuring information for
+                                    intuitive navigation.</p>
+                            </div>
+                            <div
+                                class="p-6 rounded-2xl bg-background-light dark:bg-slate-800 border border-slate-100 dark:border-slate-700 space-y-3">
+                                <span class="material-symbols-outlined text-primary text-3xl">layers</span>
+                                <h3 class="font-bold text-slate-900 dark:text-white">Wireframing</h3>
+                                <p class="text-sm text-slate-500 dark:text-slate-400">Building blueprints for seamless
+                                    digital experiences.</p>
+                            </div>
+                            <div
+                                class="p-6 rounded-2xl bg-background-light dark:bg-slate-800 border border-slate-100 dark:border-slate-700 space-y-3">
+                                <span class="material-symbols-outlined text-primary text-3xl">trending_up</span>
+                                <h3 class="font-bold text-slate-900 dark:text-white">Objetivos de Negocio</h3>
+                                <p class="text-sm text-slate-500 dark:text-slate-400">Bridging the gap between user
+                                    needs and ROI.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- Featured Work -->
+                <section class="px-6 md:px-20 lg:px-40 py-24 bg-background-light dark:bg-background-dark" id="work">
+                    <div class="max-w-[1200px] mx-auto">
+                        <div class="flex justify-between items-end mb-12">
+                            <div>
+                                <h2 class="text-3xl font-bold text-slate-900 dark:text-white">Trabajos Destacados</h2>
+                                <p class="text-slate-500 dark:text-slate-400 mt-2">Selección de proyectos recientes de
+                                    UX/UI</p>
+                            </div>
+                            <a class="text-primary font-bold hover:underline" href="#">Ver Todos los Proyectos</a>
+                        </div>
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                            <!-- Project Card -->
+                            <div
+                                class="group relative bg-white dark:bg-slate-900 rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300">
+                                <div class="aspect-video relative overflow-hidden">
+                                    <img alt="Homiq Project"
+                                        class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                                        data-alt="App interface design showing minimalist mobile banking screens"
+                                        src="https://lh3.googleusercontent.com/aida-public/AB6AXuD3GP1Rumpk5UAOx44j-gLRR_Ze5nK4d8XxLmWqM2h_DmvngJc5NAhOvuZCT_rVKTx8t2kNEyFVg6AHEdTnU30i4w5qB4KwgTzIUUVUcT_x3PGobF5t7HeBrDYzWjR_I9IttXFjmuo4BdqfC4fcVF_BYSqVhGZluDuC5nP57TqtJ0wAUPUCHKuFojb4bs3GxkB3sTc05fjvUsIuTy0D-0o5swE_11Ne8fX3OH4UpfyNMX25HQ_79s5N0iWXuLjv3dCp0YIKqmJdKMo" />
+                                    <div
+                                        class="absolute inset-0 bg-primary/20 opacity-0 group-hover:opacity-100 transition-opacity">
+                                    </div>
+                                </div>
+                                <div class="p-8">
+                                    <div class="flex gap-2 mb-4">
+                                        <span
+                                            class="px-3 py-1 bg-primary/10 text-primary text-xs font-bold rounded-full uppercase">UX/UI</span>
+                                        <span
+                                            class="px-3 py-1 bg-primary/10 text-primary text-xs font-bold rounded-full uppercase">Investigación</span>
+                                    </div>
+                                    <h3 class="text-2xl font-bold text-slate-900 dark:text-white mb-2">Homiq – Caso de
+                                        Estudio UX/UI</h3>
+                                    <p class="text-slate-500 dark:text-slate-400 mb-6">Un proyecto integral de diseño de
+                                        producto digital que incluye investigación, definición de problemas,
+                                        arquitectura de información, wireframes y diseño de interfaz.</p>
+                                    <button class="flex items-center gap-2 text-primary font-bold">Ver Caso de Estudio
+                                        <span class="material-symbols-outlined text-sm">arrow_forward</span></button>
+                                </div>
+                            </div>
+                            <!-- Secondary/Coming Soon Project -->
+                            <div
+                                class="bg-slate-200/50 dark:bg-slate-800/50 rounded-2xl border-2 border-dashed border-slate-300 dark:border-slate-700 flex flex-col items-center justify-center p-12 text-center">
+                                <div
+                                    class="size-16 bg-white dark:bg-slate-900 rounded-full flex items-center justify-center shadow-sm mb-4">
+                                    <span class="material-symbols-outlined text-slate-400">more_horiz</span>
+                                </div>
+                                <h3 class="text-xl font-bold text-slate-600 dark:text-slate-300">Nuevo Proyecto en
+                                    Camino</h3>
+                                <p class="text-slate-400 dark:text-slate-500">I'm currently working on a digital
+                                    transformation project for a real estate agency.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- Experience & Education -->
+                <section class="px-6 md:px-20 lg:px-40 py-24 bg-white dark:bg-slate-900" id="experience">
+                    <div class="max-w-[1200px] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-20">
+                        <div>
+                            <h2 class="text-3xl font-bold mb-10 text-slate-900 dark:text-white flex items-center gap-3">
+                                <span class="material-symbols-outlined text-primary">work</span> Experiencia</h2>
+                            <div class="space-y-12">
+                                <div class="relative pl-8 border-l-2 border-slate-100 dark:border-slate-800">
+                                    <div
+                                        class="absolute -left-[9px] top-0 size-4 bg-primary rounded-full ring-4 ring-white dark:ring-slate-900">
+                                    </div>
+                                    <h3 class="text-xl font-bold text-slate-900 dark:text-white">Co-fundadora</h3>
+                                    <p class="text-primary font-bold">Gold Sheep Group</p>
+                                    <p class="text-slate-400 text-sm mb-3 italic">2022 — 2025</p>
+                                    <p class="text-slate-600 dark:text-slate-400 leading-relaxed">Liderazgo en la
+                                        dirección estratégica y gestión operativa de proyectos de alto impacto.</p>
+                                </div>
+                                <div class="relative pl-8 border-l-2 border-slate-100 dark:border-slate-800">
+                                    <div
+                                        class="absolute -left-[9px] top-0 size-4 bg-slate-300 dark:bg-slate-700 rounded-full ring-4 ring-white dark:ring-slate-900">
+                                    </div>
+                                    <h3 class="text-xl font-bold text-slate-900 dark:text-white">Asesora Inmobiliaria
+                                    </h3>
+                                    <p class="text-primary font-bold">Century 21</p>
+                                    <p class="text-slate-400 text-sm mb-3 italic">2022 — 2023</p>
+                                    <p class="text-slate-600 dark:text-slate-400 leading-relaxed">Prestación de
+                                        servicios de asesoramiento de alto nivel, centrándose en las necesidades de los
+                                        usuarios y el análisis del mercado.</p>
+                                </div>
+                                <div class="relative pl-8 border-l-2 border-slate-100 dark:border-slate-800">
+                                    <div
+                                        class="absolute -left-[9px] top-0 size-4 bg-slate-300 dark:bg-slate-700 rounded-full ring-4 ring-white dark:ring-slate-900">
+                                    </div>
+                                    <h3 class="text-xl font-bold text-slate-900 dark:text-white">Fundadora</h3>
+                                    <p class="text-primary font-bold">Mae Deco &amp; Home</p>
+                                    <p class="text-slate-400 text-sm mb-3 italic">2020 — Actualidad</p>
+                                    <p class="text-slate-600 dark:text-slate-400 leading-relaxed">Diseño de estética
+                                        para el hogar curada y gestión de soluciones de diseño centradas en el cliente.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="space-y-12">
+                            <div>
+                                <h2
+                                    class="text-3xl font-bold mb-10 text-slate-900 dark:text-white flex items-center gap-3">
+                                    <span class="material-symbols-outlined text-primary">school</span> Educación</h2>
+                                <div class="space-y-8">
+                                    <div class="p-6 rounded-2xl bg-background-light dark:bg-slate-800/50">
+                                        <h3 class="font-bold text-slate-900 dark:text-white">Arquitectura</h3>
+                                        <p class="text-slate-600 dark:text-slate-400">Universidad Nacional de La Plata
+                                            (UNLP)</p>
+                                    </div>
+                                    <div class="p-6 rounded-2xl bg-background-light dark:bg-slate-800/50">
+                                        <h3 class="font-bold text-slate-900 dark:text-white">Diplomado UX/UI</h3>
+                                        <p class="text-slate-600 dark:text-slate-400">Coderhouse</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-bold mb-6 text-slate-900 dark:text-white">Capacitación
+                                    Complementaria</h3>
+                                <div class="flex flex-wrap gap-2">
+                                    <span
+                                        class="px-4 py-2 bg-slate-100 dark:bg-slate-800 rounded-lg text-sm text-slate-700 dark:text-slate-300">Coaching</span>
+                                    <span
+                                        class="px-4 py-2 bg-slate-100 dark:bg-slate-800 rounded-lg text-sm text-slate-700 dark:text-slate-300">PNL</span>
+                                    <span
+                                        class="px-4 py-2 bg-slate-100 dark:bg-slate-800 rounded-lg text-sm text-slate-700 dark:text-slate-300">Lenguaje
+                                        Corporal</span>
+                                    <span
+                                        class="px-4 py-2 bg-slate-100 dark:bg-slate-800 rounded-lg text-sm text-slate-700 dark:text-slate-300">Liderazgo
+                                        de Equipos</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- Skills & Tools -->
+                <section class="px-6 md:px-20 lg:px-40 py-24 bg-background-light dark:bg-background-dark" id="skills">
+                    <div class="max-w-[1200px] mx-auto">
+                        <div class="text-center mb-16">
+                            <h2 class="text-3xl font-bold text-slate-900 dark:text-white">Habilidades y Herramientas
+                            </h2>
+                            <p class="text-slate-500 dark:text-slate-400 mt-2">Los métodos y software que utilizo para
+                                dar vida a las ideas</p>
+                        </div>
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+                            <div class="bg-white dark:bg-slate-900 p-8 rounded-2xl shadow-sm">
+                                <h3 class="text-xl font-bold mb-8 flex items-center gap-2"><span
+                                        class="material-symbols-outlined text-primary">psychology</span> Habilidades
+                                    UX/UI</h3>
+                                <div class="grid grid-cols-2 gap-4">
+                                    <div class="flex items-center gap-3">
+                                        <div class="size-2 bg-primary rounded-full"></div>
+                                        <span class="text-slate-600 dark:text-slate-300">Entrevistas a Usuarios</span>
+                                    </div>
+                                    <div class="flex items-center gap-3">
+                                        <div class="size-2 bg-primary rounded-full"></div>
+                                        <span class="text-slate-600 dark:text-slate-300">Mapeo de Usuarios</span>
+                                    </div>
+                                    <div class="flex items-center gap-3">
+                                        <div class="size-2 bg-primary rounded-full"></div>
+                                        <span class="text-slate-600 dark:text-slate-300">Diseño Visual</span>
+                                    </div>
+                                    <div class="flex items-center gap-3">
+                                        <div class="size-2 bg-primary rounded-full"></div>
+                                        <span class="text-slate-600 dark:text-slate-300">Prototipado</span>
+                                    </div>
+                                    <div class="flex items-center gap-3">
+                                        <div class="size-2 bg-primary rounded-full"></div>
+                                        <span class="text-slate-600 dark:text-slate-300">Arq. de la Información</span>
+                                    </div>
+                                    <div class="flex items-center gap-3">
+                                        <div class="size-2 bg-primary rounded-full"></div>
+                                        <span class="text-slate-600 dark:text-slate-300">Pruebas de Usabilidad</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="bg-white dark:bg-slate-900 p-8 rounded-2xl shadow-sm">
+                                <h3 class="text-xl font-bold mb-8 flex items-center gap-2"><span
+                                        class="material-symbols-outlined text-primary">build</span> Herramientas y
+                                    Tecnologías</h3>
+                                <div class="flex flex-wrap gap-6">
+                                    <div class="flex flex-col items-center gap-2">
+                                        <div
+                                            class="size-14 rounded-xl bg-slate-50 dark:bg-slate-800 flex items-center justify-center">
+                                            <img alt="Figma" class="size-8"
+                                                src="https://lh3.googleusercontent.com/aida-public/AB6AXuA4J3GNJzIwxyv02ubtF39GWntqzW7it9ASZ8XeKJhJ5KyP3EccOPozJPNrS6nJ0zxNVrsBwqlgNMMaUtHKTUqByZFtfUwNExpVwJFGPwIe2O-rE3L2oaYoC-cC5brNF0LGIsc92gWTeuWHZN9MhS9HG2tX8TFXzlmObrbWwAWdI16NiVih8yJmlPMwrz6X7tfYc_hKrZiPy6uf5Plfnpu5rq_53mJLY3RFSyOZCk47_66wncjCKdvs58m68Oa8df0iTEaveTDTzss" />
+                                        </div>
+                                        <span class="text-xs font-medium text-slate-500">Figma</span>
+                                    </div>
+                                    <div class="flex flex-col items-center gap-2">
+                                        <div
+                                            class="size-14 rounded-xl bg-slate-50 dark:bg-slate-800 flex items-center justify-center">
+                                            <span
+                                                class="material-symbols-outlined text-3xl text-slate-400">smart_toy</span>
+                                        </div>
+                                        <span class="text-xs font-medium text-slate-500">AI Tools</span>
+                                    </div>
+                                    <div class="flex flex-col items-center gap-2">
+                                        <div
+                                            class="size-14 rounded-xl bg-slate-50 dark:bg-slate-800 flex items-center justify-center">
+                                            <img alt="Photoshop" class="size-8"
+                                                src="https://lh3.googleusercontent.com/aida-public/AB6AXuAXLZVAMSeDqu6bpi2qcp1j29ogwQYY9w4GpGI9uB4a_jml_oAjP6_uBxVuLYq4eHce_zzQ9WwuUMx4C38d7ykbeAb5w6GaQvgzuk_rPimxATgehCXM-OaXtF3WpIQi82ES84s5JgUBEkvVQ0bvczMBhh6pCmx6B2yR3yq2fJTR2gDTO9Ai6po9DySk3voiy671JtxYYCbUZ2WEYG2Od0HBMdeyw_mkX7ybK6GvWg5snzmKDCFZGHMbOSOR8hVB3gxum1bH7raf-4g" />
+                                        </div>
+                                        <span class="text-xs font-medium text-slate-500">Photoshop</span>
+                                    </div>
+                                    <div class="flex flex-col items-center gap-2">
+                                        <div
+                                            class="size-14 rounded-xl bg-slate-50 dark:bg-slate-800 flex items-center justify-center">
+                                            <span
+                                                class="material-symbols-outlined text-3xl text-slate-400">terminal</span>
+                                        </div>
+                                        <span class="text-xs font-medium text-slate-500">HTML/CSS</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- Contact Section -->
+                <section class="px-6 md:px-20 lg:px-40 py-24 bg-white dark:bg-slate-900" id="contact">
+                    <div class="max-w-[1200px] mx-auto">
+                        <div class="grid grid-cols-1 lg:grid-cols-2 gap-20">
+                            <div class="space-y-8">
+                                <div>
+                                    <h2 class="text-4xl font-bold text-slate-900 dark:text-white mb-6">Trabajemos juntos
+                                    </h2>
+                                    <p class="text-slate-600 dark:text-slate-400 text-lg leading-relaxed">Si quieres
+                                        colaborar o saber más sobre mi trabajo, no dudes en contactarme. Actualmente
+                                        estoy abierta a nuevas oportunidades y proyectos interesantes.</p>
+                                </div>
+                                <div class="space-y-4">
+                                    <div class="flex items-center gap-4 text-slate-600 dark:text-slate-300">
+                                        <div
+                                            class="size-10 rounded-full bg-primary/10 flex items-center justify-center text-primary">
+                                            <span class="material-symbols-outlined text-xl">mail</span>
+                                        </div>
+                                        <span class="font-medium">melanie.trachsler@example.com</span>
+                                    </div>
+                                    <div class="flex items-center gap-4 text-slate-600 dark:text-slate-300">
+                                        <div
+                                            class="size-10 rounded-full bg-primary/10 flex items-center justify-center text-primary">
+                                            <span class="material-symbols-outlined text-xl">location_on</span>
+                                        </div>
+                                        <span class="font-medium">Buenos Aires, Argentina</span>
+                                    </div>
+                                </div>
+                                <div class="flex gap-4 pt-4">
+                                    <a class="size-12 rounded-xl bg-slate-100 dark:bg-slate-800 flex items-center justify-center hover:bg-primary hover:text-white transition-all"
+                                        href="#">
+                                        <span class="font-bold">Be</span>
+                                    </a>
+                                    <a class="size-12 rounded-xl bg-slate-100 dark:bg-slate-800 flex items-center justify-center hover:bg-primary hover:text-white transition-all"
+                                        href="#">
+                                        <span class="font-bold">In</span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div
+                                class="bg-background-light dark:bg-slate-800 p-8 rounded-2xl border border-slate-100 dark:border-slate-700">
+                                <form action="#" class="space-y-6">
+                                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                                        <div class="space-y-2">
+                                            <label
+                                                class="text-sm font-bold text-slate-700 dark:text-slate-300">Nombre</label>
+                                            <input
+                                                class="w-full h-12 rounded-lg bg-white dark:bg-slate-900 border-slate-200 dark:border-slate-700 focus:ring-primary focus:border-primary px-4"
+                                                placeholder="Tu nombre" type="text" />
+                                        </div>
+                                        <div class="space-y-2">
+                                            <label
+                                                class="text-sm font-bold text-slate-700 dark:text-slate-300">Email</label>
+                                            <input
+                                                class="w-full h-12 rounded-lg bg-white dark:bg-slate-900 border-slate-200 dark:border-slate-700 focus:ring-primary focus:border-primary px-4"
+                                                placeholder="your@email.com" type="email" />
+                                        </div>
+                                    </div>
+                                    <div class="space-y-2">
+                                        <label
+                                            class="text-sm font-bold text-slate-700 dark:text-slate-300">Mensaje</label>
+                                        <textarea
+                                            class="w-full rounded-lg bg-white dark:bg-slate-900 border-slate-200 dark:border-slate-700 focus:ring-primary focus:border-primary p-4"
+                                            placeholder="¿En qué puedo ayudarte?" rows="4"></textarea>
+                                    </div>
+                                    <button
+                                        class="w-full h-14 bg-primary text-white font-bold rounded-xl hover:bg-primary/90 transition-all shadow-lg shadow-primary/20"
+                                        type="submit">Enviar Mensaje</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </main>
+            <footer class="py-12 px-10 border-t border-slate-200 dark:border-slate-800 text-center">
+                <p class="text-slate-400 text-sm">© 2024 Melanie Nicole Trachsler. Diseñado con propósito.</p>
+            </footer>
+        </div>
+    </div>
+</body>
+
+</html>
